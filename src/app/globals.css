@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+/* The product has one light theme; keep legacy dark utilities inert unless a .dark root is deliberately added. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@import '../styles/variables.css';
+@import '../styles/icon-font.css';
+@import '../styles/typography.css';
+@import '../styles/common.css';
+@import '../styles/base.css';
+@import '../styles/button.css';
+@import '../styles/badge.css';
+@import '../styles/header.css';
+@import '../styles/number-animation.css';
+@import '../styles/lenis.css';

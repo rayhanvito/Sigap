@@ -1,0 +1,442 @@
+{
+  "LocaleSwitcher": {
+    "label": "Language",
+    "id": "Indonesian",
+    "en": "English"
+  },
+  "nav": {
+    "explore": "Explore",
+    "engage": "Engage",
+    "blog": "Blog",
+    "contact": "Contact us",
+    "getStarted": "Try Sigap",
+    "menu": "Menu",
+    "groups": {
+      "company": "Company",
+      "platform": "Platform",
+      "resources": "Resources",
+      "plans-support": "Plans & Support"
+    },
+    "descriptions": {
+      "company": "Learn about Sigap",
+      "platform": "See what Sigap can do",
+      "resources": "Read the available guides",
+      "plans-support": "View plans and account",
+      "contact": "Tell us what you need",
+      "support": "Access product help",
+      "testimonials": "Customer stories when available",
+      "customers": "Customer results when available"
+    },
+    "items": {
+      "about-us": "About Sigap",
+      "team": "The Sigap team",
+      "career": "Careers",
+      "contact": "Contact Sigap",
+      "support": "Support",
+      "customers": "Customers",
+      "use-cases": "Use cases",
+      "case-studies": "Case studies",
+      "testimonials": "Testimonials",
+      "documentation": "Documentation",
+      "features": "Features",
+      "integrations": "Integrations",
+      "build-overview": "Create an account",
+      "blog": "Blog",
+      "tutorial": "Tutorials",
+      "faq": "FAQ",
+      "pricing": "Pricing",
+      "login": "Log in",
+      "create-account": "Create an account",
+      "terms-conditions": "Terms & Conditions",
+      "privacy-policy": "Privacy Policy",
+      "legal": "Legal information"
+    }
+  },
+  "footer": {
+    "description": "Manage business WhatsApp chats, customers, leads, and follow-ups in one place.",
+    "groups": {
+      "company": "Company",
+      "support": "Support",
+      "legal": "Policies"
+    },
+    "links": {
+      "about": "About Sigap",
+      "career": "Careers",
+      "case-studies": "Case studies",
+      "contact": "Contact us",
+      "faq": "FAQ",
+      "documentation": "Documentation",
+      "tutorial": "Tutorials",
+      "support": "Support",
+      "terms": "Terms & Conditions",
+      "privacy": "Privacy Policy"
+    },
+    "copyright": "Copyright © Sigap — a smart application for modern business"
+  },
+  "common": {
+    "emailPlaceholder": "Enter your work email",
+    "trySigap": "Try Sigap",
+    "scheduleDemo": "Schedule a demo",
+    "learnMore": "Learn more",
+    "seeFeatures": "See features",
+    "seePricing": "See pricing",
+    "support": "Need help?",
+    "noCreditCard": "No credit card required",
+    "humanHandoff": "A human can take over at any time"
+  },
+  "auth": {
+    "signupTitle": "Create a Sigap account",
+    "signupDescription": "Connect your business WhatsApp and start answering customers.",
+    "loginTitle": "Log in to Sigap",
+    "loginDescription": "Continue your team's work from the same WhatsApp inbox.",
+    "name": "Full name",
+    "email": "Work email",
+    "business": "Business name",
+    "phone": "WhatsApp number (optional)",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "passwordHint": "Use a strong password.",
+    "signup": "Create account",
+    "login": "Log in",
+    "remember": "Remember me",
+    "forgot": "Forgot password?",
+    "notRegistered": "Not registered yet?",
+    "createAccount": "Create an account",
+    "consent": "I agree to the Terms and Conditions and Privacy Policy.",
+    "security": "Business data is separated and team access is managed by role.",
+    "checkEmailTitle": "Check your email",
+    "checkEmailDescription": "We will send a confirmation link to the work email you entered.",
+    "emailPlaceholder": "Enter your work email",
+    "businessPlaceholder": "Enter your business name"
+  },
+  "blog": {
+    "badge": "Blog",
+    "title": "Sigap articles will appear when the content is ready.",
+    "description": "We do not show sample articles or unverified insights. Come back when product and operations articles have been published."
+  },
+  "notFound": {
+    "title": "This page does not exist.",
+    "description": "Check the address or return to the Sigap home page.",
+    "home": "Back to home"
+  },
+  "cta": {
+    "badge": "Start with Sigap",
+    "title": "Ready to organize your customer conversations with Sigap?",
+    "description": "Connect your business WhatsApp and see how your team can manage conversations, leads, and follow-ups in one place.",
+    "button": "Try Sigap"
+  },
+  "pages": {
+    "features": {
+      "badge": "Sigap features",
+      "title": "What your team can do in Sigap.",
+      "description": "From the customer's first message to the end-of-month report, the working context stays in one place.",
+      "cta": "Try Sigap",
+      "sections": {
+        "contacts": {
+          "title": "Contacts and customers",
+          "description": "Everyone who contacts your business gets one profile with a number, name, conversation history, notes, and status.",
+          "points": ["WhatsApp conversations connect to the profile.", "Internal notes stay hidden from customers.", "Labels and segments help organize customers.", "Search and filters make history easy to find."],
+          "audience": "Most useful for: customer service and admin."
+        },
+        "leads": {
+          "title": "Leads",
+          "description": "Mark customers who are considering a purchase, with their source, interest, and estimated value.",
+          "points": ["Create leads from a conversation or manually.", "Every lead has a clear owner.", "Priorities help the team decide who to contact first.", "Lead changes remain in the history."],
+          "audience": "Most useful for: sales and business owners."
+        },
+        "pipeline": {
+          "title": "Pipeline",
+          "description": "See every lead across your sales stages, from the first question to the purchase.",
+          "points": ["Stages can match the way you sell.", "Every stage change is recorded.", "Leads that pile up in a stage are visible.", "Stale leads are easy to find."],
+          "audience": "Most useful for: sales and business owners."
+        },
+        "followUp": {
+          "title": "Follow-ups",
+          "description": "Schedule follow-ups for customers who have not decided yet, at the time you choose.",
+          "points": ["Schedule a follow-up directly from a conversation.", "Reminders appear for the staff member who needs to act.", "Follow-ups target customers who have contacted the business.", "Follow-up results stay on the customer profile."],
+          "audience": "Most useful for: sales and customer service."
+        },
+        "tasks": {
+          "title": "Activities and tasks",
+          "description": "Record what needs to be done, by whom, and when.",
+          "points": ["Tasks connect to contacts, leads, or conversations.", "Deadlines and owners are clear.", "Every team member sees their tasks for today.", "The customer's activity history stays intact."],
+          "audience": "Most useful for: every team member."
+        },
+        "dashboard": {
+          "title": "Dashboard",
+          "description": "One view for today's service and sales situation.",
+          "points": ["Incoming, answered, and waiting conversations.", "First response time.", "Conversations answered by AI and taken over by staff.", "Leads by stage."],
+          "audience": "Most useful for: business owners and operations managers."
+        },
+        "reports": {
+          "title": "Reports",
+          "description": "Periodic summaries that can be shared with the team or owner.",
+          "points": ["Daily, weekly, and monthly reports.", "Period-over-period comparisons.", "Export for spreadsheets.", "Only metrics the system actually calculates."],
+          "audience": "Most useful for: owners and operations."
+        },
+        "roles": {
+          "title": "Roles and access",
+          "description": "Every team member has a role with different access rights.",
+          "points": ["Access is checked on the server.", "Roles are available for owners, admins, and staff.", "New members are easy to add and access can be disabled.", "Access changes are recorded."],
+          "audience": "Most useful for: admins and business owners."
+        },
+        "inbox": {
+          "title": "WhatsApp inbox and AI replies",
+          "description": "Conversations from your business number enter one inbox. AI handles routine questions and staff take over when needed.",
+          "points": ["You control business information and answer rules.", "AI is guided to hand off questions outside its scope.", "Images and documents are processed in the background.", "Chat history stays intact when staff take over."]
+        },
+        "audit": {
+          "title": "Data and audit",
+          "description": "Sigap's foundation keeps business data separate and important changes traceable.",
+          "points": ["Each business has a separate data space.", "Messages are signature-checked and processed once.", "Important changes are recorded in an audit log.", "Sigap can run on your own server."]
+        }
+      }
+    },
+    "integration": {
+      "badge": "Integrations",
+      "title": "What is available now, and only that.",
+      "description": "We show only integrations that are actually available for your account.",
+      "cta": "Request an integration",
+      "whatsapp": {
+        "title": "WhatsApp",
+        "description": "Receive and send messages from your business WhatsApp number in a shared inbox.",
+        "points": ["Connect the number through WAHA.", "Incoming messages use a verified webhook.", "Prepare a business WhatsApp number and QR scanning access.", "Use follow-ups only for customers who have contacted the business."]
+      },
+      "api": {
+        "title": "API and webhooks",
+        "description": "Read and send Sigap data from other systems such as an online store or cashier app.",
+        "points": ["API keys are sent in headers, not URLs.", "Webhooks use signatures and idempotency.", "Get an API key from account settings.", "API documentation is shown once access is available."]
+      },
+      "request": {
+        "title": "Request an integration",
+        "description": "Need another tool? Tell us through the contact page. Requests help set priorities.",
+        "points": []
+      }
+    },
+    "useCase": {
+      "badge": "Use cases",
+      "title": "Who uses it, and why.",
+      "description": "Examples of how different roles use Sigap in their business.",
+      "cta": "Try Sigap",
+      "roles": {
+        "owner": {"title": "Business owners", "description": "Customer messages arrive on several phones and it is hard to see what happens.", "automation": "Sigap brings conversations, dashboards, reports, and team audit logs together.", "human": "People still make pricing, discount, and strategy decisions.", "features": "Dashboard, reports, roles and access, audit log."},
+        "sales": {"title": "Sales", "description": "A customer says they will get back to you, then the lead disappears in personal notes.", "automation": "Sigap records the lead, stage, owner, and follow-up due today.", "human": "Sales still closes the deal and adapts the offer.", "features": "Leads, pipeline, follow-ups, activities and tasks."},
+        "service": {"title": "Customer service", "description": "Repeated questions take time while complaints pile up.", "automation": "AI answers routine questions and staff who take over see the full history.", "human": "Complaints, exchanges, and cases that need empathy remain with people.", "features": "Inbox, AI replies, takeover, contacts."},
+        "admin": {"title": "Admins", "description": "New and departing staff need quick access changes while customer data stays organized.", "automation": "Sigap provides role settings, access deactivation, labels, and contact segments.", "human": "Admins decide who is allowed to do what.", "features": "Roles and access, contacts, audit log."},
+        "operations": {"title": "Operations", "description": "Order and stock questions repeat while workload is hard to estimate.", "automation": "AI answers from the information you provide and reports show busy periods.", "human": "The team keeps business information accurate and current.", "features": "Business information for AI, dashboard, reports, tasks."}
+      }
+    },
+    "pricing": {
+      "badge": "Pricing",
+      "title": "Simple pricing for teams getting organized.",
+      "description": "Starting at Rp299,000 per month for the Sigap platform. Fees from WhatsApp providers and third-party AI services, if used, follow usage and may be billed separately.",
+      "note": "The prices below are initial platform prices for the Indonesian market; special requirements may need a separate quote.",
+      "cta": "Contact Sigap",
+      "plans": {
+        "starter": {"title": "Starter", "description": "1 workspace, up to 3 users, and 1 WhatsApp number for one business getting started.", "status": "Rp299,000/month"},
+        "business": {"title": "Business", "description": "1 workspace, up to 10 users, and up to 3 WhatsApp numbers for teams handling many conversations.", "status": "Rp799,000/month"},
+        "selfHost": {"title": "Self-host", "description": "Run Sigap on your own server with users and numbers sized around your implementation needs.", "status": "From Rp2,500,000/month"}
+      },
+      "featuresTitle": "What is included",
+      "features": ["Shared WhatsApp inbox", "AI replies and staff handoff", "Contacts and customers", "Leads and pipeline", "Scheduled follow-ups", "Activities and tasks", "Dashboard", "Reports", "Roles and access", "Audit log", "Conversation history", "Contact labels and segments", "API and webhooks", "Report exports", "Onboarding support", "Self-hosted on your own server"],
+      "faq": {
+        "one": {"question": "Are WhatsApp and AI costs included?", "answer": "The prices above cover the Sigap platform. Fees from an official WhatsApp provider or third-party AI services, if used, follow usage and may be billed separately."},
+        "two": {"question": "Can I try Sigap before subscribing?", "answer": "Contact the Sigap team to discuss trial or demo access based on your workspace and WhatsApp connection."},
+        "three": {"question": "Can I change plans?", "answer": "Yes. The Sigap team can help adjust the plan as users, numbers, or workflows change."},
+        "four": {"question": "What does Self-host include?", "answer": "Self-host runs Sigap on your own server. Pricing starts at Rp2,500,000 per month; infrastructure, implementation, and support are discussed before a final quote."}
+      }
+    },
+    "tutorial": {
+      "badge": "Tutorials",
+      "title": "Start using Sigap with a clear workflow.",
+      "description": "Short guides for connecting WhatsApp, preparing business information, and helping the team work together.",
+      "steps": {"connect": {"title": "Connect business WhatsApp", "description": "Prepare the business number and follow the connection process available in your account."}, "prepare": {"title": "Prepare business information", "description": "Add service hours, products, policies, and handoff rules so AI replies fit your context."}, "invite": {"title": "Invite your team", "description": "Set roles and access so each person sees the work they are responsible for."}, "followUp": {"title": "Set follow-ups", "description": "Create tasks and reminders from conversations so leads do not get missed."}},
+      "resourcesTitle": "Guide topics",
+      "resources": ["Inbox and AI handoff", "Contacts, leads, and pipeline", "Follow-ups, tasks, and reports"]
+    },
+    "documentation": {
+      "badge": "Documentation",
+      "title": "Sigap documentation.",
+      "description": "References for setting up a workspace, managing conversations, and keeping business data organized.",
+      "topics": {"account": {"title": "Account and workspace", "description": "Create a workspace, manage the business profile, and set up team members."}, "inbox": {"title": "WhatsApp inbox", "description": "Understand incoming messages, conversation status, and handoff to staff."}, "ai": {"title": "AI replies", "description": "Set business information and rules for when AI should hand off a conversation."}, "contacts": {"title": "Contacts and leads", "description": "Manage profiles, labels, segments, owners, stages, and priorities."}, "followUp": {"title": "Follow-ups and tasks", "description": "Schedule next steps and see each team member's responsibility."}, "api": {"title": "API and webhooks", "description": "Use API access and webhooks only when the feature is available for your account."}, "security": {"title": "Data and security", "description": "Understand data separation, roles, webhook verification, and audit logs."}}
+    },
+    "faq": {
+      "badge": "FAQ",
+      "title": "Frequently asked questions",
+      "description": "Short answers about the WhatsApp inbox, AI, data, pricing, and implementing Sigap.",
+      "items": {
+        "one": {"question": "What is Sigap?", "answer": "Sigap is a platform for managing business WhatsApp conversations, customers, leads, and follow-ups in one place."},
+        "two": {"question": "Do I have to change my WhatsApp number?", "answer": "No. You connect the business WhatsApp number you already use, according to the connection method available for your account."},
+        "three": {"question": "What does the AI do?", "answer": "AI helps answer routine questions from the business information you provide. Staff can take over at any time."},
+        "four": {"question": "What if the AI gives a wrong answer?", "answer": "Staff can see the conversation and take over. Business information and handoff rules can also be updated."},
+        "five": {"question": "Does Sigap replace customer service?", "answer": "No. Sigap reduces routine work, while cases that need judgment and empathy remain with people."},
+        "six": {"question": "Is each business's data separated?", "answer": "Yes. Sigap is designed with separate data spaces and role-based team access."},
+        "seven": {"question": "Is pricing available yet?", "answer": "Yes. Starter starts at Rp299,000 per month, Business at Rp799,000 per month, and Self-host from Rp2,500,000 per month. WhatsApp and third-party AI fees may be billed separately based on usage."},
+        "eight": {"question": "How do I get help?", "answer": "Use the contact page or documentation to share your needs and find the available guides."}
+      }
+    },
+    "support": {
+      "badge": "Support",
+      "title": "Support to keep your team moving.",
+      "description": "From product guides to questions about accounts and implementation.",
+      "sections": {"documentation": {"title": "Read the documentation", "description": "Find references for accounts, inboxes, AI, contacts, follow-ups, and data."}, "contact": {"title": "Contact Sigap", "description": "Send a question or requirement through the contact page. We will follow up through the available channel."}, "account": {"title": "Account help", "description": "For sign-in or access issues, include your account email and the steps you have already tried."}}
+    },
+    "contact": {
+      "badge": "Contact",
+      "title": "Contact Sigap.",
+      "description": "Tell us about your business need, product question, or integration request.",
+      "subjects": ["Product question", "Account help", "Integration request", "Partnership"],
+      "name": "Full name",
+      "email": "Work email",
+      "message": "Tell us what you need",
+      "submit": "Send message",
+      "privacy": "Do not send customer data or confidential information through this form."
+    },
+    "about": {
+      "badge": "About Sigap",
+      "title": "Sigap helps businesses organize WhatsApp conversations.",
+      "description": "We build tools that make customer messages, team work, and follow-ups easier to see and act on.",
+      "sections": {"problem": {"title": "The problem we help solve", "description": "Business conversations often spread across devices while customer context and follow-up tasks are easy to lose."}, "approach": {"title": "Our approach", "description": "Sigap brings together the inbox, contacts, leads, AI, tasks, and reports without removing the human role."}, "principles": {"title": "Product principles", "description": "Data should be separate, access should be clear, important actions should be traceable, and claims should be based on real data."}, "scope": {"title": "Built for teams that work through WhatsApp", "description": "Business owners, sales, customer service, admins, and operations can see the same context."}}
+    },
+    "career": {
+      "badge": "Careers",
+      "title": "Build a more responsive way of working with us.",
+      "description": "We look for people who care about useful products, trustworthy data, and simple team experiences.",
+      "sections": {"principles": {"title": "What we look for", "description": "Curiosity, clear communication, ownership of results, and attention to user details."}, "roles": {"title": "Planned roles", "description": "Engineering, AI and automation, customer success, sales and partnerships, product design, and QA and DevOps."}, "process": {"title": "Hiring process", "description": "Roles that are actually open will show their responsibilities, qualifications, and application steps in full."}}
+    },
+    "privacy": {
+      "badge": "Privacy Policy",
+      "title": "How Sigap handles data.",
+      "description": "This policy explains the data used to provide Sigap and your rights as a user under applicable Indonesian rules, including the Personal Data Protection Law (UU PDP).",
+      "sections": {"collect": {"title": "Data we use", "description": "We use account data, business information you enter, conversation content processed through the service, and technical data needed to run the application."}, "use": {"title": "How data is used", "description": "Data is used to provide Sigap features, keep the service secure, support users, and improve reliability for operational purposes."}, "separation": {"title": "Separation and access", "description": "Business data is separated from other businesses. Team access follows roles, and important changes may be recorded in an audit log."}, "rights": {"title": "User rights", "description": "You may request access, correction, updates, or deletion of data according to applicable rules and the processes available in Sigap."}, "changes": {"title": "Policy changes", "description": "If the policy changes, the latest version will be published on this page. Do not send customer data or confidential information through the contact form."}}
+    },
+    "terms": {
+      "badge": "Terms and Conditions",
+      "title": "Rules for using Sigap.",
+      "description": "Use Sigap responsibly to manage business conversations and customer data.",
+      "sections": {"service": {"title": "Service scope", "description": "Sigap provides a shared WhatsApp inbox, contact and lead management, AI assistance, follow-ups, tasks, and reports according to the features available for your account."}, "account": {"title": "Accounts and access", "description": "You are responsible for protecting account credentials, giving team members appropriate access, and disabling access that is no longer needed."}, "content": {"title": "Data and content", "description": "You remain responsible for the accuracy of business information, permission to send messages, and compliance with WhatsApp rules and applicable law."}, "ai": {"title": "AI assistance", "description": "AI helps with routine work but does not replace human judgment. Review important information and prepare handoff for cases that need staff."}, "changes": {"title": "Service changes", "description": "Features, documentation, and terms may be updated. Important changes will be communicated through available service channels."}}
+    },
+    "legal": {
+      "badge": "Legal information",
+      "title": "Sigap legal information.",
+      "description": "Use this page to find the policies that explain service use and data handling.",
+      "sections": {"privacy": {"title": "Privacy Policy", "description": "Explains the data Sigap uses, why it is used, data separation, and user rights under the UU PDP."}, "terms": {"title": "Terms and Conditions", "description": "Explains account rules, responsibility for content, and the use of AI assistance."}, "contact": {"title": "Legal questions", "description": "If you have a policy question, send it through the contact page without including customer data or confidential information."}}
+    },
+    "unavailable": {
+      "customer": {"badge": "Customers", "title": "Customer stories will appear when the data is ready.", "description": "We do not show logos, testimonials, case studies, or metrics without real data and permission to publish."},
+      "team": {"badge": "The Sigap team", "title": "Team profiles will appear when the data is ready.", "description": "We choose not to fill this page with unverified profiles or sample photos."},
+      "stories": {"badge": "Customer results", "title": "Customer results will appear when the data is ready.", "description": "No success numbers or performance claims are shown before they can be substantiated."}
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "WhatsApp CRM",
+      "title": "AI answers customer WhatsApp chats. When a human is needed, your team steps in.",
+      "description": "Sigap brings business WhatsApp conversations into one inbox, records customers and leads, answers routine questions with AI, and reminds your team to follow up.",
+      "emailPlaceholder": "Enter your work email",
+      "cta": "Try Sigap",
+      "trust": "Business data stays separate and traceable",
+      "trustDescription": "No unverified customer or performance claims."
+    },
+    "select": {
+      "badge": "Why Sigap",
+      "title": "From incoming message to report, all in one place.",
+      "description": "Customer chats no longer sit across phones or personal notes. Your team sees the same context and knows the next step.",
+      "points": {
+        "one": "A shared WhatsApp inbox for the whole team.",
+        "two": "AI answers routine questions, with handoff to staff.",
+        "three": "Organized contacts, leads, pipeline, and follow-ups.",
+        "four": "Dashboard and audit logs for traceable decisions."
+      }
+    },
+    "features": {
+      "badge": "Key features",
+      "title": "What your team can do in Sigap.",
+      "description": "From the customer's first message to the end-of-month report.",
+      "cards": {
+        "one": {
+          "title": "Shared WhatsApp inbox",
+          "points": "Every conversation from your business number arrives in one team inbox."
+        },
+        "two": {
+          "title": "AI replies and takeover",
+          "points": "AI answers routine questions. Staff step in when a conversation needs human judgment."
+        },
+        "three": {
+          "title": "Contacts and leads",
+          "points": "Every customer gets a profile, chat history, notes, and a clear status."
+        }
+      }
+    },
+    "workflow": {
+      "badge": "How it works",
+      "title": "From first chat to loyal customer in five steps.",
+      "description": "A message arrives, AI answers the routine questions, the lead is recorded, staff take over when needed, and follow-ups and reports stay organized.",
+      "link": "See how Sigap works",
+      "cardLabel": "Team inbox",
+      "cardValue": "Active",
+      "roles": {
+        "owner": "Business owners",
+        "sales": "Sales",
+        "service": "Customer service",
+        "operations": "Admin and operations"
+      }
+    },
+    "integration": {
+      "badge": "Integrations",
+      "title": "Connect the tools you already use.",
+      "description": "See only the integrations that are actually available for your account.",
+      "link": "See integrations"
+    },
+    "pricing": {
+      "badge": "Pricing",
+      "title": "Choose a plan that fits your team.",
+      "description": "Starter starts at Rp299,000 per month. See user limits, WhatsApp numbers, and the Self-host option.",
+      "link": "See plan options"
+    },
+    "trust": {
+      "badge": "Trust",
+      "title": "Built to keep your business data separate and traceable.",
+      "description": "We do not show logos, ratings, or customer counts until the data is real and permission has been given.",
+      "points": {
+        "one": "Separate data space for each business.",
+        "two": "Team access based on roles.",
+        "three": "Important changes recorded in an audit log.",
+        "four": "Two languages: Indonesian and English."
+      }
+    },
+    "faq": {
+      "badge": "FAQ",
+      "title": "Frequently asked questions",
+      "description": "Short answers about the WhatsApp inbox, AI, data, and how Sigap works.",
+      "items": {
+        "one": {
+          "question": "What is Sigap?",
+          "answer": "Sigap is a platform for managing business WhatsApp conversations, customers, leads, and follow-ups in one place."
+        },
+        "two": {
+          "question": "Do I have to change my WhatsApp number?",
+          "answer": "No. You connect the business WhatsApp number you already use, according to the connection method available for your account."
+        },
+        "three": {
+          "question": "How is it different from regular WhatsApp Business?",
+          "answer": "Sigap adds a shared inbox, customer profiles, pipeline, follow-ups, and team action records around your business conversations."
+        },
+        "four": {
+          "question": "What if the AI gives a wrong answer?",
+          "answer": "Staff can see the conversation and take over at any time. Business information and handoff rules can also be updated."
+        },
+        "five": {
+          "question": "Does Sigap replace a customer service team?",
+          "answer": "No. Sigap reduces routine work, while cases that need judgment and empathy remain with people."
+        }
+      }
+    },
+    "cta": {
+      "badge": "Start with Sigap",
+      "title": "The next chat that arrives tonight: who will answer it?",
+      "description": "Connect your business WhatsApp, organize follow-ups, and let staff step in when a conversation needs them.",
+      "button": "Try Sigap"
+    }
+  }
+}

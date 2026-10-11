@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cerita pelanggan akan ditambahkan setelah data nyata tersedia.",
+    "avatar": "/images/ns-avatar-1.png",
+    "name": "Pelanggan Sigap",
+    "position": "Konten placeholder",
+    "rating": "0"
+  },
+  {
+    "id": 2,
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cerita pelanggan akan ditambahkan setelah data nyata tersedia.",
+    "avatar": "/images/ns-avatar-2.png",
+    "name": "Pelanggan Sigap",
+    "position": "Konten placeholder",
+    "rating": "0"
+  },
+  {
+    "id": 3,
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cerita pelanggan akan ditambahkan setelah data nyata tersedia.",
+    "avatar": "/images/ns-avatar-3.png",
+    "name": "Pelanggan Sigap",
+    "position": "Konten placeholder",
+    "rating": "0"
+  },
+  {
+    "id": 4,
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cerita pelanggan akan ditambahkan setelah data nyata tersedia.",
+    "avatar": "/images/ns-avatar-4.png",
+    "name": "Pelanggan Sigap",
+    "position": "Konten placeholder",
+    "rating": "0"
+  },
+  {
+    "id": 5,
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cerita pelanggan akan ditambahkan setelah data nyata tersedia.",
+    "avatar": "/images/ns-avatar-5.png",
+    "name": "Pelanggan Sigap",
+    "position": "Konten placeholder",
+    "rating": "0"
+  },
+  {
+    "id": 6,
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cerita pelanggan akan ditambahkan setelah data nyata tersedia.",
+    "avatar": "/images/ns-avatar-6.png",
+    "name": "Pelanggan Sigap",
+    "position": "Konten placeholder",
+    "rating": "0"
+  },
+  {
+    "id": 7,
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cerita pelanggan akan ditambahkan setelah data nyata tersedia.",
+    "avatar": "/images/ns-avatar-7.png",
+    "name": "Pelanggan Sigap",
+    "position": "Konten placeholder",
+    "rating": "0"
+  },
+  {
+    "id": 8,
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cerita pelanggan akan ditambahkan setelah data nyata tersedia.",
+    "avatar": "/images/ns-avatar-8.png",
+    "name": "Pelanggan Sigap",
+    "position": "Konten placeholder",
+    "rating": "0"
+  },
+  {
+    "id": 9,
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cerita pelanggan akan ditambahkan setelah data nyata tersedia.",
+    "avatar": "/images/ns-avatar-9.png",
+    "name": "Pelanggan Sigap",
+    "position": "Konten placeholder",
+    "rating": "0"
+  }
+]
