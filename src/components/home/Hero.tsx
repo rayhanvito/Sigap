@@ -1,9 +1,10 @@
 'use client';
 
+import dashboardImg from '@public/images/GreenChat-Dashboard.png';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import RevealAnimation from '../animation/RevealAnimation';
 import HeroFormAndAvatar from './HeroFormAndAvatar';
-import HeroImages from './HeroImages';
 
 const Hero = () => {
   const t = useTranslations('home.hero');
@@ -31,7 +32,16 @@ const Hero = () => {
             </div>
             <HeroFormAndAvatar />
           </div>
-          <HeroImages />
+
+          {/* Dashboard preview */}
+          <figure className="hidden h-full min-w-0 flex-1 items-center justify-center lg:flex">
+            <Image
+              src={dashboardImg}
+              alt="Tampilan inbox WhatsApp Sigap dengan balasan AI dan pipeline prospek"
+              className="max-h-[88%] w-auto max-w-full object-contain"
+              priority
+            />
+          </figure>
         </div>
       </div>
     </section>

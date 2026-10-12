@@ -1,9 +1,8 @@
 'use client';
 
-import { cn } from '@/utils/cn';
-import featureImg01 from '@public/images/ns-img-256.png';
-import featureImg02 from '@public/images/ns-img-257.png';
-import featureImg03 from '@public/images/ns-img-258.png';
+import aiHandoffImg from '@public/images/Balasan-AI-dan-ambil-alih.jpeg';
+import contactsImg from '@public/images/Kontak-dan-prospek.jpeg';
+import sharedInboxImg from '@public/images/Inbox-WhatsApp-bersama.jpeg';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import RevealAnimation from '../animation/RevealAnimation';
@@ -11,33 +10,30 @@ import RevealAnimation from '../animation/RevealAnimation';
 const FEATURES = [
   {
     id: 1,
-    headingId: 'sales-management-heading',
+    headingId: 'shared-inbox-heading',
     key: 'one',
     image: {
-      light: featureImg01,
-      alt: 'Sales pipeline management dashboard',
+      light: sharedInboxImg,
+      alt: 'Inbox WhatsApp bersama untuk seluruh tim',
     },
-    variant: 'default',
   },
   {
     id: 2,
     headingId: 'ai-handoff-heading',
     key: 'two',
     image: {
-      light: featureImg02,
-      alt: 'Shared WhatsApp inbox interface',
+      light: aiHandoffImg,
+      alt: 'Balasan AI dan ambil alih oleh staf',
     },
-    variant: 'support',
   },
   {
     id: 3,
     headingId: 'contacts-heading',
     key: 'three',
     image: {
-      light: featureImg03,
-      alt: 'Customer contacts and leads interface',
+      light: contactsImg,
+      alt: 'Kontak dan prospek pelanggan',
     },
-    variant: 'marketing',
   },
 ] as const;
 
@@ -67,32 +63,18 @@ export default function CRMFeatures() {
           </div>
 
           {/* Feature cards */}
-          <div className="grid grid-cols-12 items-center justify-center gap-y-8 md:gap-x-8 md:gap-y-0">
+          <div className="grid grid-cols-12 items-stretch justify-center gap-y-8 md:gap-x-8 md:gap-y-0">
             {FEATURES.map((f, idx) => (
               <RevealAnimation key={f.id} delay={0.4 + idx * 0.1}>
-                <div
-                  className={cn(
-                    'bg-background-2 col-span-12 h-full max-h-[400px] max-w-[408px] space-y-6 rounded-[20px] px-8 py-[42px] sm:w-full md:col-span-6 lg:col-span-4',
-                    f.variant === 'support' && 'md:py-[50px] lg:py-[42px]',
-                  )}>
+                <div className="bg-background-2 col-span-12 h-full max-w-[408px] space-y-6 rounded-[20px] px-8 py-[42px] sm:w-full md:col-span-6 lg:col-span-4">
                   {/* Image */}
-                  <figure
-                    className={cn(
-                      'w-full',
-                      f.variant === 'default' && 'max-h-[174px] max-w-[371px]',
-                      f.variant === 'support' && 'max-h-[174px] max-w-[344px] overflow-hidden',
-                      f.variant === 'marketing' && 'max-w-[371px] overflow-hidden rounded-[10px]',
-                    )}>
-                    {/* Light */}
+                  <figure className="aspect-[22/15] w-full overflow-hidden rounded-[10px]">
                     <Image
                       src={f.image.light}
                       alt={f.image.alt}
-                      width={371}
-                      height={174}
-                      className={cn(
-                        'size-full object-cover',
-                        f.variant === 'marketing' && 'rounded-[10px]',
-                      )}
+                      width={1100}
+                      height={750}
+                      className="size-full object-cover"
                     />
                   </figure>
 

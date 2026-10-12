@@ -2,7 +2,6 @@ import FeatureList from '@/components/features/FeatureList';
 import FeatureCard from '@/components/features/Features';
 import FeaturesV2 from '@/components/features/FeaturesV2';
 import Reviews from '@/components/features/Reviews';
-import Team from '@/components/features/Team';
 import CTA from '@/components/shared/cta/CTA';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import { getTranslations } from 'next-intl/server';
@@ -17,7 +16,6 @@ const Features = () => {
   return (
     <main className="bg-background-1 dark:bg-background-6">
       <FeatureCard />
-      <Team />
       <FeatureList />
       <FeaturesV2 />
       <Reviews />

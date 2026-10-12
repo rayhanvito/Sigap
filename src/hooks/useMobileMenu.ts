@@ -7,18 +7,14 @@ interface UseMobileMenuReturn {
   openMenu: () => void;
   closeMenu: () => void;
   toggleMenu: () => void;
-  activeSubmenu: string | null;
-  toggleSubmenu: (menuId: string) => void;
-  closeAllSubmenus: () => void;
 }
 
 /**
  * Custom hook for managing mobile menu state and animations
- * Handles sidebar open/close state, submenu toggles, and body scroll lock
+ * Handles sidebar open/close state and body scroll lock
  */
 export const useMobileMenu = (): UseMobileMenuReturn => {
   const [isOpen, setIsOpen] = useState(false);
-  const [activeSubmenu, setActiveSubmenu] = useState<string | null>('company');
 
   // Open mobile menu
   const openMenu = useCallback(() => {
@@ -42,16 +38,6 @@ export const useMobileMenu = (): UseMobileMenuReturn => {
     }
   }, [isOpen, closeMenu, openMenu]);
 
-  // Toggle submenu
-  const toggleSubmenu = useCallback((menuId: string) => {
-    setActiveSubmenu((current) => (current === menuId ? null : menuId));
-  }, []);
-
-  // Close all submenus
-  const closeAllSubmenus = useCallback(() => {
-    setActiveSubmenu(null);
-  }, []);
-
   // Cleanup on unmount
   useEffect(() => {
     return () => {
@@ -64,8 +50,5 @@ export const useMobileMenu = (): UseMobileMenuReturn => {
     openMenu,
     closeMenu,
     toggleMenu,
-    activeSubmenu,
-    toggleSubmenu,
-    closeAllSubmenus,
   };
 };

@@ -24,39 +24,6 @@ export interface IBlogContent {
   matter: string;
 }
 
-export interface ICaseStudy {
-  title: string;
-  thumbnail: string;
-  description: string;
-  result: string;
-  slug: string;
-  content: string;
-  before: string[];
-  after: string[];
-  keyFeatures: string[];
-  userReview: {
-    userName: string;
-    userImage: string;
-    userRole: string;
-    reviewText: string;
-  };
-}
-
-export interface IPosition {
-  datePosted: string;
-  expirationDate: string;
-  location: string;
-  offeredSalary: string;
-  experience: string;
-  qualification: string;
-  employmentType: string[];
-  jobSkills: string[];
-  shortDescription: string;
-  content: string;
-  title: string;
-  slug: string;
-}
-
 export interface IService {
   id: number;
   title: string;
@@ -73,33 +40,6 @@ export interface IService {
   };
   slug: string;
   content: string;
-}
-
-export interface ISocialLinks {
-  behance?: string;
-  dribbble?: string;
-  facebook?: string;
-  github?: string;
-  instagram?: string;
-  linkedin?: string;
-  youtube?: string;
-}
-
-export interface IContactInformation {
-  email: string;
-  phoneNumber: string;
-}
-export interface ITeamMember {
-  name: string;
-  role: string;
-  userImg: string;
-  contactInformation: IContactInformation;
-  social: ISocialLinks;
-  content: string;
-  excerpt?: string;
-  isEmpty?: boolean;
-  slug: string;
-  Content: string;
 }
 
 // top nav bar class

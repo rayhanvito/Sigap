@@ -18,19 +18,32 @@ const LocaleSwitcher = () => {
   };
 
   return (
-    <label className="text-tagline-2 text-foreground/70 inline-flex items-center gap-2">
+    <label className="inline-flex items-center">
       <span className="sr-only">{t('label')}</span>
-      <select
-        aria-label={t('label')}
-        className="border-stroke-2 rounded-full border bg-transparent px-3 py-1.5 outline-none"
-        value={locale}
-        onChange={handleChange}>
-        {locales.map((option) => (
-          <option key={option} value={option}>
-            {t(option)}
-          </option>
-        ))}
-      </select>
+      <span className="group/locale relative inline-flex items-center">
+        <select
+          aria-label={t('label')}
+          className="border-stroke-2 text-foreground/70 hover:border-stroke-3 hover:text-foreground focus-visible:border-primary-400 peer appearance-none cursor-pointer rounded-full border bg-transparent py-2.5 pr-9 pl-4 text-tagline-2 font-normal outline-none transition-all duration-200"
+          value={locale}
+          onChange={handleChange}>
+          {locales.map((option) => (
+            <option key={option} value={option}>
+              {t(option)}
+            </option>
+          ))}
+        </select>
+        <span className="text-foreground/70 peer-hover:text-foreground pointer-events-none absolute top-1/2 right-3.5 -translate-y-1/2 transition-colors duration-200">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            stroke="currentColor"
+            className="size-4">
+            <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+        </span>
+      </span>
     </label>
   );
 };

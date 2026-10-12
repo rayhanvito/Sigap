@@ -2,7 +2,6 @@ import CRMFeatures from '@/components/home/CRMFeatures';
 import Faq from '@/components/home/Faq';
 import Hero from '@/components/home/Hero';
 import HowItWork from '@/components/home/HowItWork';
-import Integration from '@/components/home/Integration';
 import Pricing from '@/components/home/Pricing';
 import SelectUs from '@/components/home/SelectUs';
 import Testimonial from '@/components/home/Testimonial';
@@ -25,7 +24,6 @@ const page = async () => {
       <SelectUs />
       <CRMFeatures />
       <Pricing />
-      <Integration />
       <HowItWork />
       <Testimonial />
       <Faq />

@@ -5,46 +5,21 @@
     "en": "Inggris"
   },
   "nav": {
-    "explore": "Jelajahi",
-    "engage": "Gunakan",
     "blog": "Blog",
     "contact": "Hubungi kami",
     "getStarted": "Coba Sigap",
     "menu": "Menu",
-    "groups": {
-      "company": "Perusahaan",
-      "platform": "Platform",
-      "resources": "Sumber daya",
-      "plans-support": "Paket & Bantuan"
-    },
-    "descriptions": {
-      "company": "Kenali arah Sigap",
-      "platform": "Lihat kemampuan Sigap",
-      "resources": "Baca panduan yang tersedia",
-      "plans-support": "Lihat paket dan akun",
-      "contact": "Sampaikan kebutuhanmu",
-      "support": "Akses bantuan penggunaan",
-      "testimonials": "Cerita pelanggan saat tersedia",
-      "customers": "Hasil pelanggan saat tersedia"
-    },
     "items": {
-      "about-us": "Tentang Sigap",
-      "team": "Tim Sigap",
-      "career": "Karier",
+      "features": "Fitur",
+      "pricing": "Harga",
+      "blog": "Blog",
+      "faq": "FAQ",
       "contact": "Hubungi Sigap",
-      "support": "Bantuan",
-      "customers": "Pelanggan",
       "use-cases": "Use case",
-      "case-studies": "Studi kasus",
+      "customers": "Pelanggan",
       "testimonials": "Testimoni",
       "documentation": "Dokumentasi",
-      "features": "Fitur",
-      "integrations": "Integrasi",
-      "build-overview": "Buat akun",
-      "blog": "Blog",
-      "tutorial": "Tutorial",
-      "faq": "FAQ",
-      "pricing": "Harga",
+      "support": "Bantuan",
       "login": "Masuk",
       "create-account": "Buat akun",
       "terms-conditions": "Syarat & Ketentuan",
@@ -55,21 +30,29 @@
   "footer": {
     "description": "Kelola chat WhatsApp, pelanggan, prospek, dan follow-up dalam satu tempat.",
     "groups": {
+      "product": "Produk",
       "company": "Perusahaan",
-      "support": "Bantuan",
-      "legal": "Kebijakan"
+      "resources": "Sumber daya",
+      "account": "Akun & Kebijakan"
     },
     "links": {
+      "features": "Fitur",
+      "pricing": "Harga",
+      "use-cases": "Use case",
       "about": "Tentang Sigap",
-      "career": "Karier",
-      "case-studies": "Studi kasus",
+      "customers": "Pelanggan",
+      "testimonials": "Testimoni",
+      "success-stories": "Hasil pelanggan",
       "contact": "Hubungi kami",
+      "blog": "Blog",
       "faq": "FAQ",
       "documentation": "Dokumentasi",
-      "tutorial": "Tutorial",
       "support": "Bantuan",
+      "login": "Masuk",
+      "create-account": "Buat akun",
       "terms": "Syarat & Ketentuan",
-      "privacy": "Kebijakan Privasi"
+      "privacy": "Kebijakan Privasi",
+      "legal": "Informasi hukum"
     },
     "copyright": "Hak cipta © Sigap — aplikasi pintar untuk bisnis modern"
   },
@@ -135,82 +118,111 @@
         "contacts": {
           "title": "Kontak dan pelanggan",
           "description": "Setiap orang yang menghubungi bisnismu punya satu profil berisi nomor, nama, riwayat percakapan, catatan, dan status.",
-          "points": ["Percakapan WhatsApp terhubung ke profil.", "Catatan internal tidak terlihat oleh pelanggan.", "Label dan segmen membantu mengelompokkan pelanggan.", "Pencarian dan filter memudahkan riwayat ditemukan."],
+          "points": [
+            "Percakapan WhatsApp terhubung ke profil.",
+            "Catatan internal tidak terlihat oleh pelanggan.",
+            "Label dan segmen membantu mengelompokkan pelanggan.",
+            "Pencarian dan filter memudahkan riwayat ditemukan."
+          ],
           "audience": "Paling terbantu: customer service dan admin."
         },
         "leads": {
           "title": "Prospek",
           "description": "Tandai pelanggan yang sedang menimbang pembelian, lengkap dengan sumber, minat, dan perkiraan nilainya.",
-          "points": ["Prospek dibuat dari percakapan atau ditambahkan manual.", "Setiap prospek punya pemilik yang jelas.", "Prioritas membantu tim menentukan siapa yang dihubungi lebih dulu.", "Riwayat perubahan prospek tersimpan."],
+          "points": [
+            "Prospek dibuat dari percakapan atau ditambahkan manual.",
+            "Setiap prospek punya pemilik yang jelas.",
+            "Prioritas membantu tim menentukan siapa yang dihubungi lebih dulu.",
+            "Riwayat perubahan prospek tersimpan."
+          ],
           "audience": "Paling terbantu: sales dan pemilik bisnis."
         },
         "pipeline": {
           "title": "Pipeline",
           "description": "Lihat semua prospek dalam tahap penjualan, dari pertanyaan pertama sampai pembelian.",
-          "points": ["Tahap bisa disesuaikan dengan cara kamu berjualan.", "Setiap perpindahan tahap tercatat.", "Prospek yang menumpuk di tahap tertentu terlihat jelas.", "Prospek yang lama tidak bergerak mudah ditemukan."],
+          "points": [
+            "Tahap bisa disesuaikan dengan cara kamu berjualan.",
+            "Setiap perpindahan tahap tercatat.",
+            "Prospek yang menumpuk di tahap tertentu terlihat jelas.",
+            "Prospek yang lama tidak bergerak mudah ditemukan."
+          ],
           "audience": "Paling terbantu: sales dan pemilik bisnis."
         },
         "followUp": {
           "title": "Follow-up",
           "description": "Atur tindak lanjut untuk pelanggan yang belum memutuskan sesuai waktu yang kamu tentukan.",
-          "points": ["Jadwalkan follow-up langsung dari percakapan.", "Pengingat muncul untuk staf yang perlu bertindak.", "Follow-up ditujukan kepada pelanggan yang sudah pernah menghubungi bisnis.", "Hasil follow-up tercatat di profil pelanggan."],
+          "points": [
+            "Jadwalkan follow-up langsung dari percakapan.",
+            "Pengingat muncul untuk staf yang perlu bertindak.",
+            "Follow-up ditujukan kepada pelanggan yang sudah pernah menghubungi bisnis.",
+            "Hasil follow-up tercatat di profil pelanggan."
+          ],
           "audience": "Paling terbantu: sales dan customer service."
         },
         "tasks": {
           "title": "Aktivitas dan tugas",
           "description": "Catat apa yang perlu dikerjakan, oleh siapa, dan kapan.",
-          "points": ["Tugas terhubung ke kontak, prospek, atau percakapan.", "Tenggat dan penanggung jawab jelas.", "Setiap anggota tim melihat daftar tugas hari ini.", "Riwayat aktivitas pelanggan tetap utuh."],
+          "points": [
+            "Tugas terhubung ke kontak, prospek, atau percakapan.",
+            "Tenggat dan penanggung jawab jelas.",
+            "Setiap anggota tim melihat daftar tugas hari ini.",
+            "Riwayat aktivitas pelanggan tetap utuh."
+          ],
           "audience": "Paling terbantu: semua anggota tim."
         },
         "dashboard": {
           "title": "Dashboard",
           "description": "Satu layar untuk melihat kondisi layanan dan penjualan hari ini.",
-          "points": ["Percakapan masuk, terjawab, dan menunggu.", "Waktu respons pertama.", "Percakapan yang dijawab AI dan yang diambil alih staf.", "Prospek per tahap."],
+          "points": [
+            "Percakapan masuk, terjawab, dan menunggu.",
+            "Waktu respons pertama.",
+            "Percakapan yang dijawab AI dan yang diambil alih staf.",
+            "Prospek per tahap."
+          ],
           "audience": "Paling terbantu: pemilik bisnis dan manajer operasional."
         },
         "reports": {
           "title": "Laporan",
           "description": "Ringkasan berkala yang bisa dibagikan ke tim atau pemilik.",
-          "points": ["Laporan harian, mingguan, dan bulanan.", "Perbandingan antarperiode.", "Ekspor untuk dibuka di spreadsheet.", "Hanya metrik yang benar-benar dihitung sistem."],
+          "points": [
+            "Laporan harian, mingguan, dan bulanan.",
+            "Perbandingan antarperiode.",
+            "Ekspor untuk dibuka di spreadsheet.",
+            "Hanya metrik yang benar-benar dihitung sistem."
+          ],
           "audience": "Paling terbantu: pemilik bisnis dan operasional."
         },
         "roles": {
           "title": "Role dan akses",
           "description": "Setiap anggota tim punya peran dengan hak akses yang berbeda.",
-          "points": ["Akses diperiksa di sisi server.", "Peran tersedia untuk pemilik, admin, dan staf.", "Anggota baru mudah ditambah dan akses dapat dinonaktifkan.", "Perubahan akses tercatat."],
+          "points": [
+            "Akses diperiksa di sisi server.",
+            "Peran tersedia untuk pemilik, admin, dan staf.",
+            "Anggota baru mudah ditambah dan akses dapat dinonaktifkan.",
+            "Perubahan akses tercatat."
+          ],
           "audience": "Paling terbantu: admin dan pemilik bisnis."
         },
         "inbox": {
           "title": "Inbox WhatsApp dan balasan AI",
           "description": "Percakapan dari nomor bisnis masuk ke satu inbox. AI menjawab yang rutin, staf mengambil alih yang butuh orang.",
-          "points": ["Informasi bisnis dan aturan jawab kamu yang atur.", "AI diarahkan menyerahkan percakapan di luar wilayahnya.", "Gambar dan dokumen diproses di latar belakang.", "Riwayat chat tetap utuh saat staf mengambil alih."]
+          "points": [
+            "Informasi bisnis dan aturan jawab kamu yang atur.",
+            "AI diarahkan menyerahkan percakapan di luar wilayahnya.",
+            "Gambar dan dokumen diproses di latar belakang.",
+            "Riwayat chat tetap utuh saat staf mengambil alih."
+          ]
         },
         "audit": {
           "title": "Data dan audit",
           "description": "Fondasi Sigap membantu data bisnis tetap terpisah dan perubahan penting dapat ditelusuri.",
-          "points": ["Data tiap bisnis dipisahkan di database dan aplikasi.", "Pesan diperiksa tanda tangannya dan diproses satu kali.", "Perubahan penting tercatat di audit log.", "Sigap dapat dijalankan di server sendiri."]
+          "points": [
+            "Data tiap bisnis dipisahkan di database dan aplikasi.",
+            "Pesan diperiksa tanda tangannya dan diproses satu kali.",
+            "Perubahan penting tercatat di audit log.",
+            "Sigap dapat dijalankan di server sendiri."
+          ]
         }
-      }
-    },
-    "integration": {
-      "badge": "Integrasi",
-      "title": "Yang tersedia sekarang, dan hanya itu.",
-      "description": "Kami hanya menampilkan integrasi yang benar-benar tersedia untuk akunmu.",
-      "cta": "Minta integrasi",
-      "whatsapp": {
-        "title": "WhatsApp",
-        "description": "Terima dan kirim pesan dari nomor WhatsApp bisnis lalu tampilkan semuanya di inbox bersama.",
-        "points": ["Nomor dihubungkan lewat WAHA.", "Pesan masuk dikirim melalui webhook yang diverifikasi.", "Siapkan nomor WhatsApp bisnis dan akses untuk memindai kode QR.", "Follow-up hanya untuk pelanggan yang sudah pernah menghubungi bisnis."]
-      },
-      "api": {
-        "title": "API dan webhook",
-        "description": "Ambil dan kirim data Sigap dari sistem lain, seperti toko online atau aplikasi kasir.",
-        "points": ["Kunci API dikirim lewat header, bukan URL.", "Webhook memakai tanda tangan dan idempotensi.", "Kunci API diambil dari pengaturan akun.", "Dokumentasi API ditampilkan setelah aksesnya tersedia."]
-      },
-      "request": {
-        "title": "Minta integrasi",
-        "description": "Butuh alat lain? Kabari kami lewat halaman kontak. Permintaan yang masuk membantu menentukan prioritas.",
-        "points": []
       }
     },
     "useCase": {
@@ -219,11 +231,41 @@
       "description": "Contoh penggunaan Sigap menurut peran di bisnismu.",
       "cta": "Coba Sigap",
       "roles": {
-        "owner": {"title": "Pemilik bisnis", "description": "Pesan pelanggan masuk ke beberapa HP dan kamu sulit melihat apa yang terjadi.", "automation": "Sigap menyatukan percakapan, dashboard, laporan, dan audit log tindakan tim.", "human": "Keputusan harga, diskon, dan strategi tetap dibuat manusia.", "features": "Dashboard, laporan, role dan akses, audit log."},
-        "sales": {"title": "Sales", "description": "Pelanggan berkata akan mengabari, lalu prospeknya hilang di catatan pribadi.", "automation": "Sigap mencatat prospek, tahap, pemilik, dan follow-up yang harus dikerjakan hari ini.", "human": "Menutup penjualan dan menyesuaikan penawaran tetap dilakukan sales.", "features": "Prospek, pipeline, follow-up, aktivitas dan tugas."},
-        "service": {"title": "Customer service", "description": "Pertanyaan berulang menghabiskan waktu sementara komplain menumpuk.", "automation": "AI menjawab pertanyaan rutin dan staf yang mengambil alih melihat riwayat lengkap.", "human": "Komplain, penukaran barang, dan kasus yang butuh empati tetap ditangani manusia.", "features": "Inbox, balasan AI, ambil alih, kontak."},
-        "admin": {"title": "Admin", "description": "Akses staf perlu diatur cepat dan data pelanggan harus tetap rapi.", "automation": "Sigap menyediakan pengaturan peran, penonaktifan akses, label, dan segmen kontak.", "human": "Admin menentukan siapa yang boleh melakukan apa.", "features": "Role dan akses, kontak, audit log."},
-        "operations": {"title": "Operasional", "description": "Informasi pesanan dan stok ditanyakan berulang, sementara beban kerja sulit diperkirakan.", "automation": "AI menjawab dari informasi yang kamu isi dan laporan memperlihatkan waktu tersibuk.", "human": "Tim tetap menjaga informasi bisnis agar benar dan terbarui.", "features": "Informasi bisnis untuk AI, dashboard, laporan, tugas."}
+        "owner": {
+          "title": "Pemilik bisnis",
+          "description": "Pesan pelanggan masuk ke beberapa HP dan kamu sulit melihat apa yang terjadi.",
+          "automation": "Sigap menyatukan percakapan, dashboard, laporan, dan audit log tindakan tim.",
+          "human": "Keputusan harga, diskon, dan strategi tetap dibuat manusia.",
+          "features": "Dashboard, laporan, role dan akses, audit log."
+        },
+        "sales": {
+          "title": "Sales",
+          "description": "Pelanggan berkata akan mengabari, lalu prospeknya hilang di catatan pribadi.",
+          "automation": "Sigap mencatat prospek, tahap, pemilik, dan follow-up yang harus dikerjakan hari ini.",
+          "human": "Menutup penjualan dan menyesuaikan penawaran tetap dilakukan sales.",
+          "features": "Prospek, pipeline, follow-up, aktivitas dan tugas."
+        },
+        "service": {
+          "title": "Customer service",
+          "description": "Pertanyaan berulang menghabiskan waktu sementara komplain menumpuk.",
+          "automation": "AI menjawab pertanyaan rutin dan staf yang mengambil alih melihat riwayat lengkap.",
+          "human": "Komplain, penukaran barang, dan kasus yang butuh empati tetap ditangani manusia.",
+          "features": "Inbox, balasan AI, ambil alih, kontak."
+        },
+        "admin": {
+          "title": "Admin",
+          "description": "Akses staf perlu diatur cepat dan data pelanggan harus tetap rapi.",
+          "automation": "Sigap menyediakan pengaturan peran, penonaktifan akses, label, dan segmen kontak.",
+          "human": "Admin menentukan siapa yang boleh melakukan apa.",
+          "features": "Role dan akses, kontak, audit log."
+        },
+        "operations": {
+          "title": "Operasional",
+          "description": "Informasi pesanan dan stok ditanyakan berulang, sementara beban kerja sulit diperkirakan.",
+          "automation": "AI menjawab dari informasi yang kamu isi dan laporan memperlihatkan waktu tersibuk.",
+          "human": "Tim tetap menjaga informasi bisnis agar benar dan terbarui.",
+          "features": "Informasi bisnis untuk AI, dashboard, laporan, tugas."
+        }
       }
     },
     "pricing": {
@@ -233,59 +275,163 @@
       "note": "Harga di bawah adalah harga awal platform Sigap untuk pasar Indonesia; kebutuhan khusus dapat memerlukan penawaran terpisah.",
       "cta": "Hubungi Sigap",
       "plans": {
-        "starter": {"title": "Starter", "description": "1 workspace, hingga 3 pengguna, dan 1 nomor WhatsApp untuk satu bisnis yang baru mulai.", "status": "Rp299.000/bulan"},
-        "business": {"title": "Bisnis", "description": "1 workspace, hingga 10 pengguna, dan sampai 3 nomor WhatsApp untuk tim yang menangani banyak percakapan.", "status": "Rp799.000/bulan"},
-        "selfHost": {"title": "Self-host", "description": "Sigap berjalan di server milikmu dengan jumlah pengguna dan nomor yang dibahas sesuai kebutuhan implementasi.", "status": "Mulai Rp2.500.000/bulan"}
+        "starter": {
+          "title": "Starter",
+          "description": "1 workspace, hingga 3 pengguna, dan 1 nomor WhatsApp untuk satu bisnis yang baru mulai.",
+          "status": "Rp299.000/bulan"
+        },
+        "business": {
+          "title": "Bisnis",
+          "description": "1 workspace, hingga 10 pengguna, dan sampai 3 nomor WhatsApp untuk tim yang menangani banyak percakapan.",
+          "status": "Rp799.000/bulan"
+        },
+        "selfHost": {
+          "title": "Self-host",
+          "description": "Sigap berjalan di server milikmu dengan jumlah pengguna dan nomor yang dibahas sesuai kebutuhan implementasi.",
+          "status": "Mulai Rp2.500.000/bulan"
+        }
       },
       "featuresTitle": "Yang termasuk dalam paket",
-      "features": ["Inbox WhatsApp bersama", "Balasan AI dan handoff staf", "Kontak dan pelanggan", "Prospek dan pipeline", "Follow-up terjadwal", "Aktivitas dan tugas", "Dashboard", "Laporan", "Role dan akses", "Audit log", "Riwayat percakapan", "Label dan segmen kontak", "API dan webhook", "Ekspor laporan", "Dukungan onboarding", "Self-host di server sendiri"],
+      "features": [
+        "Inbox WhatsApp bersama",
+        "Balasan AI dan handoff staf",
+        "Kontak dan pelanggan",
+        "Prospek dan pipeline",
+        "Follow-up terjadwal",
+        "Aktivitas dan tugas",
+        "Dashboard",
+        "Laporan",
+        "Role dan akses",
+        "Audit log",
+        "Riwayat percakapan",
+        "Label dan segmen kontak",
+        "API dan webhook",
+        "Ekspor laporan",
+        "Dukungan onboarding",
+        "Self-host di server sendiri"
+      ],
       "faq": {
-        "one": {"question": "Apakah biaya WhatsApp dan AI sudah termasuk?", "answer": "Harga di atas adalah biaya platform Sigap. Biaya dari penyedia WhatsApp resmi atau layanan AI pihak ketiga, jika digunakan, mengikuti pemakaian dan dapat ditagihkan terpisah."},
-        "two": {"question": "Bisa mencoba Sigap sebelum berlangganan?", "answer": "Hubungi tim Sigap untuk membahas akses uji coba atau demo sesuai kebutuhan workspace dan koneksi WhatsApp kamu."},
-        "three": {"question": "Bisa pindah paket?", "answer": "Bisa. Tim Sigap dapat membantu menyesuaikan paket saat jumlah pengguna, nomor, atau alur kerja berubah."},
-        "four": {"question": "Apa yang termasuk dalam Self-host?", "answer": "Self-host menjalankan Sigap di server milikmu. Biaya mulai dari Rp2.500.000 per bulan; kebutuhan infrastruktur, implementasi, dan dukungan dibahas sebelum penawaran final."}
+        "one": {
+          "question": "Apakah biaya WhatsApp dan AI sudah termasuk?",
+          "answer": "Harga di atas adalah biaya platform Sigap. Biaya dari penyedia WhatsApp resmi atau layanan AI pihak ketiga, jika digunakan, mengikuti pemakaian dan dapat ditagihkan terpisah."
+        },
+        "two": {
+          "question": "Bisa mencoba Sigap sebelum berlangganan?",
+          "answer": "Hubungi tim Sigap untuk membahas akses uji coba atau demo sesuai kebutuhan workspace dan koneksi WhatsApp kamu."
+        },
+        "three": {
+          "question": "Bisa pindah paket?",
+          "answer": "Bisa. Tim Sigap dapat membantu menyesuaikan paket saat jumlah pengguna, nomor, atau alur kerja berubah."
+        },
+        "four": {
+          "question": "Apa yang termasuk dalam Self-host?",
+          "answer": "Self-host menjalankan Sigap di server milikmu. Biaya mulai dari Rp2.500.000 per bulan; kebutuhan infrastruktur, implementasi, dan dukungan dibahas sebelum penawaran final."
+        }
       }
-    },
-    "tutorial": {
-      "badge": "Tutorial",
-      "title": "Mulai menggunakan Sigap dengan alur yang jelas.",
-      "description": "Panduan singkat untuk menghubungkan WhatsApp, menyiapkan informasi bisnis, dan membantu tim bekerja bersama.",
-      "steps": {"connect": {"title": "Hubungkan WhatsApp bisnis", "description": "Siapkan nomor bisnis dan ikuti proses koneksi yang tersedia di akunmu."}, "prepare": {"title": "Siapkan informasi bisnis", "description": "Isi jam layanan, produk, kebijakan, dan aturan handoff agar jawaban AI sesuai konteks."}, "invite": {"title": "Undang tim", "description": "Atur role dan akses agar setiap orang melihat pekerjaan yang memang menjadi tanggung jawabnya."}, "followUp": {"title": "Atur follow-up", "description": "Buat tugas dan pengingat dari percakapan agar prospek tidak terlewat."}},
-      "resourcesTitle": "Topik panduan",
-      "resources": ["Inbox dan handoff AI", "Kontak, prospek, dan pipeline", "Follow-up, tugas, dan laporan"]
     },
     "documentation": {
       "badge": "Dokumentasi",
       "title": "Dokumentasi Sigap.",
       "description": "Referensi untuk menyiapkan workspace, mengelola percakapan, dan menjaga data bisnis tetap tertata.",
-      "topics": {"account": {"title": "Akun dan workspace", "description": "Buat workspace, kelola profil bisnis, dan atur anggota tim."}, "inbox": {"title": "Inbox WhatsApp", "description": "Pahami alur pesan masuk, status percakapan, dan handoff ke staf."}, "ai": {"title": "Balasan AI", "description": "Atur informasi bisnis dan aturan kapan AI harus menyerahkan percakapan."}, "contacts": {"title": "Kontak dan prospek", "description": "Kelola profil, label, segmen, owner, tahap, dan prioritas."}, "followUp": {"title": "Follow-up dan tugas", "description": "Jadwalkan tindak lanjut dan lihat tanggung jawab setiap anggota tim."}, "api": {"title": "API dan webhook", "description": "Gunakan akses API dan webhook hanya setelah fitur tersedia untuk akunmu."}, "security": {"title": "Data dan keamanan", "description": "Pahami pemisahan data, role, verifikasi webhook, dan audit log."}}
+      "topics": {
+        "account": {
+          "title": "Akun dan workspace",
+          "description": "Buat workspace, kelola profil bisnis, dan atur anggota tim."
+        },
+        "inbox": {
+          "title": "Inbox WhatsApp",
+          "description": "Pahami alur pesan masuk, status percakapan, dan handoff ke staf."
+        },
+        "ai": {
+          "title": "Balasan AI",
+          "description": "Atur informasi bisnis dan aturan kapan AI harus menyerahkan percakapan."
+        },
+        "contacts": {
+          "title": "Kontak dan prospek",
+          "description": "Kelola profil, label, segmen, owner, tahap, dan prioritas."
+        },
+        "followUp": {
+          "title": "Follow-up dan tugas",
+          "description": "Jadwalkan tindak lanjut dan lihat tanggung jawab setiap anggota tim."
+        },
+        "api": {
+          "title": "API dan webhook",
+          "description": "Gunakan akses API dan webhook hanya setelah fitur tersedia untuk akunmu."
+        },
+        "security": {
+          "title": "Data dan keamanan",
+          "description": "Pahami pemisahan data, role, verifikasi webhook, dan audit log."
+        }
+      }
     },
     "faq": {
       "badge": "FAQ",
       "title": "Pertanyaan yang sering muncul",
       "description": "Jawaban singkat tentang inbox WhatsApp, AI, data, harga, dan implementasi Sigap.",
       "items": {
-        "one": {"question": "Apa itu Sigap?", "answer": "Sigap adalah platform untuk mengelola percakapan WhatsApp bisnis, pelanggan, prospek, dan follow-up dalam satu tempat."},
-        "two": {"question": "Apakah saya harus mengganti nomor WhatsApp?", "answer": "Tidak. Kamu menghubungkan nomor WhatsApp bisnis yang sudah digunakan, sesuai cara koneksi yang tersedia di akunmu."},
-        "three": {"question": "Apa yang dilakukan AI?", "answer": "AI membantu menjawab pertanyaan rutin dari informasi bisnis yang kamu siapkan. Staf dapat mengambil alih kapan saja."},
-        "four": {"question": "Bagaimana jika AI memberikan jawaban yang salah?", "answer": "Staf dapat melihat percakapan dan mengambil alih. Informasi bisnis serta aturan handoff juga dapat diperbarui."},
-        "five": {"question": "Apakah Sigap menggantikan customer service?", "answer": "Tidak. Sigap mengurangi pekerjaan rutin, sementara kasus yang butuh penilaian dan empati tetap ditangani manusia."},
-        "six": {"question": "Apakah data tiap bisnis dipisahkan?", "answer": "Ya. Sigap dirancang dengan ruang data terpisah dan akses anggota tim berdasarkan peran."},
-        "seven": {"question": "Apakah harga sudah tersedia?", "answer": "Ya. Paket Starter mulai dari Rp299.000 per bulan, Bisnis Rp799.000 per bulan, dan Self-host mulai dari Rp2.500.000 per bulan. Biaya WhatsApp dan layanan AI pihak ketiga dapat ditagihkan terpisah sesuai pemakaian."},
-        "eight": {"question": "Bagaimana cara mendapatkan bantuan?", "answer": "Gunakan halaman kontak atau dokumentasi untuk menyampaikan kebutuhan dan melihat panduan yang tersedia."}
+        "one": {
+          "question": "Apa itu Sigap?",
+          "answer": "Sigap adalah platform untuk mengelola percakapan WhatsApp bisnis, pelanggan, prospek, dan follow-up dalam satu tempat."
+        },
+        "two": {
+          "question": "Apakah saya harus mengganti nomor WhatsApp?",
+          "answer": "Tidak. Kamu menghubungkan nomor WhatsApp bisnis yang sudah digunakan, sesuai cara koneksi yang tersedia di akunmu."
+        },
+        "three": {
+          "question": "Apa yang dilakukan AI?",
+          "answer": "AI membantu menjawab pertanyaan rutin dari informasi bisnis yang kamu siapkan. Staf dapat mengambil alih kapan saja."
+        },
+        "four": {
+          "question": "Bagaimana jika AI memberikan jawaban yang salah?",
+          "answer": "Staf dapat melihat percakapan dan mengambil alih. Informasi bisnis serta aturan handoff juga dapat diperbarui."
+        },
+        "five": {
+          "question": "Apakah Sigap menggantikan customer service?",
+          "answer": "Tidak. Sigap mengurangi pekerjaan rutin, sementara kasus yang butuh penilaian dan empati tetap ditangani manusia."
+        },
+        "six": {
+          "question": "Apakah data tiap bisnis dipisahkan?",
+          "answer": "Ya. Sigap dirancang dengan ruang data terpisah dan akses anggota tim berdasarkan peran."
+        },
+        "seven": {
+          "question": "Apakah harga sudah tersedia?",
+          "answer": "Ya. Paket Starter mulai dari Rp299.000 per bulan, Bisnis Rp799.000 per bulan, dan Self-host mulai dari Rp2.500.000 per bulan. Biaya WhatsApp dan layanan AI pihak ketiga dapat ditagihkan terpisah sesuai pemakaian."
+        },
+        "eight": {
+          "question": "Bagaimana cara mendapatkan bantuan?",
+          "answer": "Gunakan halaman kontak atau dokumentasi untuk menyampaikan kebutuhan dan melihat panduan yang tersedia."
+        }
       }
     },
     "support": {
       "badge": "Bantuan",
       "title": "Dukungan untuk membantu tim tetap sigap.",
       "description": "Mulai dari panduan penggunaan sampai pertanyaan tentang akun dan implementasi.",
-      "sections": {"documentation": {"title": "Baca dokumentasi", "description": "Ikuti referensi tentang akun, inbox, AI, kontak, follow-up, dan data."}, "contact": {"title": "Hubungi Sigap", "description": "Kirim pertanyaan atau kebutuhan melalui halaman kontak. Kami akan menindaklanjuti melalui kanal yang tersedia."}, "account": {"title": "Bantuan akun", "description": "Untuk masalah masuk atau akses, siapkan email akun dan jelaskan langkah yang sudah dicoba."}}
+      "sections": {
+        "documentation": {
+          "title": "Baca dokumentasi",
+          "description": "Ikuti referensi tentang akun, inbox, AI, kontak, follow-up, dan data."
+        },
+        "contact": {
+          "title": "Hubungi Sigap",
+          "description": "Kirim pertanyaan atau kebutuhan melalui halaman kontak. Kami akan menindaklanjuti melalui kanal yang tersedia."
+        },
+        "account": {
+          "title": "Bantuan akun",
+          "description": "Untuk masalah masuk atau akses, siapkan email akun dan jelaskan langkah yang sudah dicoba."
+        }
+      }
     },
     "contact": {
       "badge": "Kontak",
       "title": "Hubungi Sigap.",
       "description": "Ceritakan kebutuhan bisnismu, pertanyaan tentang produk, atau permintaan integrasi.",
-      "subjects": ["Pertanyaan tentang produk", "Bantuan akun", "Permintaan integrasi", "Kerja sama"],
+      "subjects": [
+        "Pertanyaan tentang produk",
+        "Bantuan akun",
+        "Permintaan integrasi",
+        "Kerja sama"
+      ],
       "name": "Nama lengkap",
       "email": "Email kerja",
       "message": "Ceritakan kebutuhanmu",
@@ -296,36 +442,97 @@
       "badge": "Tentang Sigap",
       "title": "Sigap membantu bisnis merapikan percakapan WhatsApp.",
       "description": "Kami membangun alat yang membuat pesan pelanggan, pekerjaan tim, dan tindak lanjut lebih mudah dilihat dan dijalankan.",
-      "sections": {"problem": {"title": "Masalah yang kami bantu selesaikan", "description": "Percakapan bisnis sering tersebar di banyak perangkat, sementara konteks pelanggan dan tugas follow-up mudah hilang."}, "approach": {"title": "Pendekatan kami", "description": "Sigap menyatukan inbox, kontak, prospek, AI, tugas, dan laporan tanpa menghilangkan peran manusia."}, "principles": {"title": "Prinsip produk", "description": "Data harus terpisah, akses harus jelas, tindakan penting dapat ditelusuri, dan klaim harus berdasarkan data nyata."}, "scope": {"title": "Dibuat untuk tim yang bekerja lewat WhatsApp", "description": "Pemilik bisnis, sales, customer service, admin, dan operasional dapat melihat konteks yang sama."}}
-    },
-    "career": {
-      "badge": "Karier",
-      "title": "Bangun cara kerja yang lebih sigap bersama kami.",
-      "description": "Kami mencari orang yang peduli pada produk yang berguna, data yang dapat dipercaya, dan pengalaman tim yang sederhana.",
-      "sections": {"principles": {"title": "Yang kami cari", "description": "Rasa ingin tahu, komunikasi yang jelas, tanggung jawab atas hasil, dan perhatian pada detail pengguna."}, "roles": {"title": "Peran yang direncanakan", "description": "Engineering, AI dan otomatisasi, customer success, sales dan kemitraan, product design, serta QA dan DevOps."}, "process": {"title": "Proses rekrutmen", "description": "Posisi yang benar-benar dibuka akan menampilkan tanggung jawab, kualifikasi, dan cara melamar secara lengkap."}}
+      "sections": {
+        "problem": {
+          "title": "Masalah yang kami bantu selesaikan",
+          "description": "Percakapan bisnis sering tersebar di banyak perangkat, sementara konteks pelanggan dan tugas follow-up mudah hilang."
+        },
+        "approach": {
+          "title": "Pendekatan kami",
+          "description": "Sigap menyatukan inbox, kontak, prospek, AI, tugas, dan laporan tanpa menghilangkan peran manusia."
+        },
+        "principles": {
+          "title": "Prinsip produk",
+          "description": "Data harus terpisah, akses harus jelas, tindakan penting dapat ditelusuri, dan klaim harus berdasarkan data nyata."
+        },
+        "scope": {
+          "title": "Dibuat untuk tim yang bekerja lewat WhatsApp",
+          "description": "Pemilik bisnis, sales, customer service, admin, dan operasional dapat melihat konteks yang sama."
+        }
+      }
     },
     "privacy": {
       "badge": "Kebijakan Privasi",
       "title": "Cara Sigap menangani data.",
       "description": "Kebijakan ini menjelaskan data yang digunakan untuk menyediakan Sigap dan hakmu sebagai pengguna sesuai peraturan yang berlaku di Indonesia, termasuk UU Pelindungan Data Pribadi.",
-      "sections": {"collect": {"title": "Data yang kami gunakan", "description": "Kami menggunakan data akun, data bisnis yang kamu masukkan, isi percakapan yang diproses melalui layanan, serta data teknis yang diperlukan agar aplikasi berjalan."}, "use": {"title": "Cara data digunakan", "description": "Data digunakan untuk menyediakan fitur Sigap, menjaga keamanan, membantu dukungan, dan memperbaiki keandalan layanan sesuai kebutuhan operasional."}, "separation": {"title": "Pemisahan dan akses", "description": "Data bisnis dipisahkan dari bisnis lain. Akses anggota tim mengikuti role, dan perubahan penting dapat tercatat di audit log."}, "rights": {"title": "Hak pengguna", "description": "Kamu dapat meminta akses, perbaikan, pembaruan, atau penghapusan data sesuai ketentuan yang berlaku dan proses yang tersedia di Sigap."}, "changes": {"title": "Perubahan kebijakan", "description": "Jika kebijakan berubah, versi terbaru akan dipublikasikan di halaman ini. Jangan kirim data pelanggan atau informasi rahasia melalui formulir kontak."}}
+      "sections": {
+        "collect": {
+          "title": "Data yang kami gunakan",
+          "description": "Kami menggunakan data akun, data bisnis yang kamu masukkan, isi percakapan yang diproses melalui layanan, serta data teknis yang diperlukan agar aplikasi berjalan."
+        },
+        "use": {
+          "title": "Cara data digunakan",
+          "description": "Data digunakan untuk menyediakan fitur Sigap, menjaga keamanan, membantu dukungan, dan memperbaiki keandalan layanan sesuai kebutuhan operasional."
+        },
+        "separation": {
+          "title": "Pemisahan dan akses",
+          "description": "Data bisnis dipisahkan dari bisnis lain. Akses anggota tim mengikuti role, dan perubahan penting dapat tercatat di audit log."
+        },
+        "rights": {
+          "title": "Hak pengguna",
+          "description": "Kamu dapat meminta akses, perbaikan, pembaruan, atau penghapusan data sesuai ketentuan yang berlaku dan proses yang tersedia di Sigap."
+        },
+        "changes": {
+          "title": "Perubahan kebijakan",
+          "description": "Jika kebijakan berubah, versi terbaru akan dipublikasikan di halaman ini. Jangan kirim data pelanggan atau informasi rahasia melalui formulir kontak."
+        }
+      }
     },
     "terms": {
       "badge": "Syarat dan Ketentuan",
       "title": "Aturan penggunaan Sigap.",
       "description": "Gunakan Sigap secara bertanggung jawab untuk mengelola percakapan bisnis dan data pelanggan.",
-      "sections": {"service": {"title": "Ruang lingkup layanan", "description": "Sigap menyediakan inbox WhatsApp bersama, pengelolaan kontak dan prospek, bantuan AI, follow-up, tugas, dan laporan sesuai fitur yang tersedia pada akunmu."}, "account": {"title": "Akun dan akses", "description": "Kamu bertanggung jawab menjaga kredensial akun, memastikan anggota memiliki akses yang sesuai, dan menonaktifkan akses yang tidak lagi diperlukan."}, "content": {"title": "Data dan konten", "description": "Kamu tetap bertanggung jawab atas keakuratan informasi bisnis, izin pengiriman pesan, dan kepatuhan terhadap aturan WhatsApp serta hukum yang berlaku."}, "ai": {"title": "Bantuan AI", "description": "Balasan AI membantu pekerjaan rutin, tetapi tidak menggantikan penilaian manusia. Tinjau informasi penting dan siapkan handoff untuk kasus yang membutuhkan staf."}, "changes": {"title": "Perubahan layanan", "description": "Fitur, dokumentasi, dan ketentuan dapat diperbarui. Perubahan penting akan diinformasikan melalui kanal layanan yang tersedia."}}
+      "sections": {
+        "service": {
+          "title": "Ruang lingkup layanan",
+          "description": "Sigap menyediakan inbox WhatsApp bersama, pengelolaan kontak dan prospek, bantuan AI, follow-up, tugas, dan laporan sesuai fitur yang tersedia pada akunmu."
+        },
+        "account": {
+          "title": "Akun dan akses",
+          "description": "Kamu bertanggung jawab menjaga kredensial akun, memastikan anggota memiliki akses yang sesuai, dan menonaktifkan akses yang tidak lagi diperlukan."
+        },
+        "content": {
+          "title": "Data dan konten",
+          "description": "Kamu tetap bertanggung jawab atas keakuratan informasi bisnis, izin pengiriman pesan, dan kepatuhan terhadap aturan WhatsApp serta hukum yang berlaku."
+        },
+        "ai": {
+          "title": "Bantuan AI",
+          "description": "Balasan AI membantu pekerjaan rutin, tetapi tidak menggantikan penilaian manusia. Tinjau informasi penting dan siapkan handoff untuk kasus yang membutuhkan staf."
+        },
+        "changes": {
+          "title": "Perubahan layanan",
+          "description": "Fitur, dokumentasi, dan ketentuan dapat diperbarui. Perubahan penting akan diinformasikan melalui kanal layanan yang tersedia."
+        }
+      }
     },
     "legal": {
       "badge": "Informasi hukum",
       "title": "Informasi hukum Sigap.",
       "description": "Gunakan halaman ini untuk menemukan kebijakan yang menjelaskan penggunaan layanan dan pengelolaan data.",
-      "sections": {"privacy": {"title": "Kebijakan Privasi", "description": "Menjelaskan data yang digunakan Sigap, tujuan penggunaannya, pemisahan data, dan hak pengguna sesuai UU PDP."}, "terms": {"title": "Syarat dan Ketentuan", "description": "Menjelaskan aturan penggunaan akun, tanggung jawab atas konten, dan penggunaan bantuan AI."}, "contact": {"title": "Pertanyaan hukum", "description": "Jika ada pertanyaan tentang kebijakan, kirimkan melalui halaman kontak tanpa menyertakan data pelanggan atau informasi rahasia."}}
-    },
-    "unavailable": {
-      "customer": {"badge": "Pelanggan", "title": "Cerita pelanggan akan ditampilkan setelah datanya siap.", "description": "Kami tidak menampilkan logo, testimoni, studi kasus, atau metrik tanpa data nyata dan izin publikasi."},
-      "team": {"badge": "Tim Sigap", "title": "Profil tim akan ditampilkan setelah datanya siap.", "description": "Kami memilih tidak mengisi halaman ini dengan profil atau foto contoh yang belum terverifikasi."},
-      "stories": {"badge": "Hasil pelanggan", "title": "Hasil pelanggan akan ditampilkan setelah datanya siap.", "description": "Tidak ada angka keberhasilan atau klaim performa yang ditampilkan sebelum dapat dibuktikan."}
+      "sections": {
+        "privacy": {
+          "title": "Kebijakan Privasi",
+          "description": "Menjelaskan data yang digunakan Sigap, tujuan penggunaannya, pemisahan data, dan hak pengguna sesuai UU PDP."
+        },
+        "terms": {
+          "title": "Syarat dan Ketentuan",
+          "description": "Menjelaskan aturan penggunaan akun, tanggung jawab atas konten, dan penggunaan bantuan AI."
+        },
+        "contact": {
+          "title": "Pertanyaan hukum",
+          "description": "Jika ada pertanyaan tentang kebijakan, kirimkan melalui halaman kontak tanpa menyertakan data pelanggan atau informasi rahasia."
+        }
+      }
     }
   },
   "home": {
@@ -382,27 +589,153 @@
         "operations": "Admin dan operasional"
       }
     },
-    "integration": {
-      "badge": "Integrasi",
-      "title": "Terhubung ke alat yang sudah kamu pakai.",
-      "description": "Lihat hanya integrasi yang benar-benar tersedia untuk akunmu.",
-      "link": "Lihat integrasi"
-    },
     "pricing": {
       "badge": "Harga",
       "title": "Pilih paket sesuai kebutuhan tim kamu.",
       "description": "Paket Starter mulai dari Rp299.000 per bulan. Lihat batas pengguna, nomor WhatsApp, dan opsi Self-host.",
-      "link": "Lihat pilihan paket"
+      "link": "Lihat pilihan paket",
+      "monthly": "Bulanan",
+      "yearly": "Tahunan",
+      "toggleLabel": "Ubah antara harga bulanan dan tahunan",
+      "perMonth": "Per bulan",
+      "perYear": "Per tahun",
+      "saveBadge": "hemat 40%",
+      "saveBadgeAria": "Diskon hemat 40%",
+      "cta": "Hubungi Sigap",
+      "plans": {
+        "starter": {
+          "title": "Starter",
+          "description": "1 workspace, hingga 3 pengguna, dan 1 nomor WhatsApp untuk satu bisnis yang baru mulai.",
+          "priceMonth": "Rp299.000",
+          "priceYear": "Rp2.152.800",
+          "variant": "standard",
+          "features": [
+            {
+              "label": "Inbox WhatsApp bersama",
+              "enabled": true
+            },
+            {
+              "label": "Balasan AI dan handoff staf",
+              "enabled": true
+            },
+            {
+              "label": "Kontak dan pelanggan",
+              "enabled": true
+            },
+            {
+              "label": "Prospek dan pipeline",
+              "enabled": true
+            },
+            {
+              "label": "Follow-up terjadwal",
+              "enabled": true
+            },
+            {
+              "label": "Laporan",
+              "enabled": false
+            }
+          ]
+        },
+        "business": {
+          "title": "Bisnis",
+          "description": "1 workspace, hingga 10 pengguna, dan sampai 3 nomor WhatsApp untuk tim yang menangani banyak percakapan.",
+          "priceMonth": "Rp799.000",
+          "priceYear": "Rp5.752.800",
+          "variant": "highlight",
+          "features": [
+            {
+              "label": "Inbox WhatsApp bersama",
+              "enabled": true
+            },
+            {
+              "label": "Balasan AI dan handoff staf",
+              "enabled": true
+            },
+            {
+              "label": "Kontak dan pelanggan",
+              "enabled": true
+            },
+            {
+              "label": "Prospek dan pipeline",
+              "enabled": true
+            },
+            {
+              "label": "Follow-up terjadwal",
+              "enabled": true
+            },
+            {
+              "label": "Laporan",
+              "enabled": true
+            }
+          ]
+        },
+        "selfHost": {
+          "title": "Self-host",
+          "description": "Sigap berjalan di server milikmu dengan jumlah pengguna dan nomor yang dibahas sesuai kebutuhan implementasi.",
+          "priceMonth": "Mulai Rp2.500.000",
+          "priceYear": "Mulai Rp18.000.000",
+          "variant": "standard",
+          "features": [
+            {
+              "label": "Inbox WhatsApp bersama",
+              "enabled": true
+            },
+            {
+              "label": "Balasan AI dan handoff staf",
+              "enabled": true
+            },
+            {
+              "label": "Kontak dan pelanggan",
+              "enabled": true
+            },
+            {
+              "label": "Prospek dan pipeline",
+              "enabled": true
+            },
+            {
+              "label": "Follow-up terjadwal",
+              "enabled": true
+            },
+            {
+              "label": "Audit log",
+              "enabled": true
+            }
+          ]
+        }
+      }
     },
     "trust": {
       "badge": "Kepercayaan",
       "title": "Dibangun agar data bisnismu tetap terpisah dan bisa ditelusuri.",
-      "description": "Kami tidak menampilkan logo, rating, atau angka pelanggan sebelum datanya nyata dan ada izin.",
       "points": {
         "one": "Ruang data terpisah untuk setiap bisnis.",
         "two": "Akses anggota tim sesuai peran.",
         "three": "Perubahan penting tercatat di audit log.",
         "four": "Dua bahasa: Indonesia dan English."
+      },
+      "people": {
+        "one": {
+          "name": "Prabowo Subianto",
+          "role": "Presiden Republik Indonesia"
+        },
+        "two": {
+          "name": "Joko Widodo",
+          "role": "Presiden ke-7 Republik Indonesia"
+        },
+        "three": {
+          "name": "Bahlil Lahadalia",
+          "role": "Menteri ESDM Republik Indonesia"
+        },
+        "four": {
+          "name": "Gibran Rakabuming",
+          "role": "Wakil Presiden Republik Indonesia"
+        }
+      },
+      "quotes": {
+        "one": "Percakapan pelanggan yang tertata membuat tim bergerak lebih cepat dan keputusan lebih mudah ditelusuri.",
+        "two": "UMKM butuh alat yang sederhana. Semua pesan dan follow-up di satu tempat membuat layanan lebih konsisten.",
+        "three": "Sektor yang bergerak cepat butuh data yang bisa ditelusuri agar tata kelola tetap terjaga.",
+        "four": "Pelanggan sudah terbiasa chat. Menjawab lewat WhatsApp dengan bantuan AI itu langkah yang tepat."
       }
     },
     "faq": {

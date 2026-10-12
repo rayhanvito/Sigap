@@ -1,29 +1,17 @@
 'use client';
 import { useMobileMenuContext } from '@/context/MobileMenuContext';
 import LocaleSwitcher from '@/components/shared/LocaleSwitcher';
+import { navLinks } from '@/data/navbar-data';
 import { cn } from '@/utils/cn';
 import logoIcon from '@public/images/shared/logo.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import MenuCloseButton from './MenuCloseButton';
-import MobileMenuItem from './MobileMenuItem';
 
-export interface MobileMenuItem {
-  id: string;
-  label: string;
-  href: string;
-}
-
-export interface MobileMenuGroup {
-  id: string;
-  title: string;
-  submenu: MobileMenuItem[];
-}
-
-const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
+const MobileMenu = () => {
   const t = useTranslations('nav');
-  const { isOpen } = useMobileMenuContext();
+  const { isOpen, closeMenu } = useMobileMenuContext();
   return (
     <aside
       className={cn(
@@ -49,24 +37,15 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
             {t('menu')}
           </p>
           <ul className="space-y-2">
-            {menuData.map((item) => (
-              <MobileMenuItem
-                key={item.id}
-                id={item.id}
-                title={t(`groups.${item.title}`)}
-                hasSubmenu={item.submenu.length > 0}>
-                <ul>
-                  {item?.submenu?.map((subItem) => (
-                    <li key={subItem.id}>
-                      <Link
-                        href={subItem.href}
-                        className="text-tagline-1 text-foreground ml-4 block py-2.5 text-left font-normal transition-all duration-200">
-                        {t(`items.${subItem.id}`)}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </MobileMenuItem>
+            {navLinks.map(({ key, href }) => (
+              <li key={href}>
+                <Link
+                  href={href}
+                  onClick={closeMenu}
+                  className="text-tagline-1 text-foreground/60 hover:text-foreground block p-2.5 font-normal transition-colors duration-200">
+                  {t(key)}
+                </Link>
+              </li>
             ))}
           </ul>
         </div>
